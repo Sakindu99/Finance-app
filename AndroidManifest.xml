@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinalApp"
+        >
+        <activity
+         android:name=".MainExpenseActivity"
+        android:exported="true" />
+        <activity
+            android:name=".intro_income"
+            android:exported="true" />
+        <activity
+            android:name=".intro_goal"
+            android:exported="true" />
+        <activity
+            android:name=".intro_expense"
+            android:exported="true" />
+        <activity
+            android:name=".intro_bill"
+            android:exported="true" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RemReportActivity"
+            android:exported="true" />
+        <activity
+            android:name=".updateExpenseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".addExpenseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainRemActivity"
+            android:exported="true" />
+        <activity
+            android:name=".updateGoalActivity"
+            android:exported="true" />
+        <activity
+            android:name=".addGoalActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainGoalActivity"
+            android:exported="true" />
+        <activity
+            android:name=".updateRemActivity"
+            android:exported="true" />
+        <activity
+            android:name=".addRemActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainIncomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".updateIncomeActivity"
+
+            android:exported="true" />
+        <activity
+            android:name=".addIncomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".app_main"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
